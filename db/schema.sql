@@ -1,11 +1,2 @@
-CREATE DATABASE coffee_shop;
-USE coffee_shop;
-
-CREATE TABLE coffee (
-
-  -- TABLE CODE TO GO HERE
-id INTEGER(10) NOT NULL AUTO_INCREMENT,
-PRIMARY KEY(id),
-name VARCHAR(30),
-drink BOOLEAN DEFAULT FALSE
-);
+CREATE DATABASE coffee_shop_db;
+USE coffee_shop_db;
