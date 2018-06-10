@@ -1,0 +1,25 @@
+{
+  "name": "SEQUELized-Coffee-Shop",
+  "version": "1.0.0",
+  "description": "This is a Coffee Shop logger app with MySQL, Node, Express, Handlebars and an ORM, which follows the MVC design pattern:  Node and MySQL to query and route data in your app and Handlebars to generate HTML",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MridulaUdayaShankar/SEQUELized-Coffee-Shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MridulaUdayaShankar/SEQUELized-Coffee-Shop/issues"
+  },
+  "homepage": "https://github.com/MridulaUdayaShankar/SEQUELized-Coffee-Shop#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  }
+}
