@@ -31,9 +31,11 @@
       <h2>Past orders</h2>
       <ol>
         {{#each this}} {{#unless drink}}
+        {{#if name}}
         <li>
           {{name}}
         </li>
+        {{/if}}
         {{/unless}} {{/each}}
       </ol>
     </div>
