@@ -17,13 +17,13 @@ li {
   }
   .col-md-12{
     text-align: center;
-    background: rgba(51, 43, 25, 0.904);
+    /* background: rgba(51, 43, 25, 0.904); */
     color: whitesmoke;
   }
 
   body{
-    background-image: url("https://gratefulgrits.org/wp-content/uploads/2017/03/coffee.jpg");
+    background-image: url("https://taylorgraceauthor.files.wordpress.com/2017/01/kensington-best-coffee-shop.jpg");
     background-repeat: no-repeat;
-    color: wheat;
+    color: whitesmoke;
     font-family: 'Sunflower', sans-serif;
   }
