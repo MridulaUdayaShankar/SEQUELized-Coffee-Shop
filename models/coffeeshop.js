@@ -1,14 +1,16 @@
 module.exports = function(sequelize, DataTypes) {
   var Coffee = sequelize.define("Coffee", {
-    id:{
+    id: {
       type: DataTypes.INTEGER,
-      allowNull: true,
+      primaryKey: true,
+      allowNull: false,
+      autoIncrement: true,
       max: 10
     },
     name: {
       type: DataTypes.STRING,
       is: ["^[a-z]+$",'i'],
-      allowNull: true
+      allowNull: false
     },
     drink: DataTypes.BOOLEAN
   });
