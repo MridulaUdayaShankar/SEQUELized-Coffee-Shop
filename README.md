@@ -13,7 +13,7 @@ Node and Sequelize to query and route data in the app and Handlebars to generate
 * Jaws DB as an external, web database
 
 #### A Preview of the App
-![demo](public/assets/img/Screen%20Shot%202018-06-10%20at%201.51.39%20AM.png)
+![demo](public/assets/img/screenshot.png)
 
 #### Installation
 * NodeJs
